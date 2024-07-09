@@ -1,9 +1,5 @@
 package Leetcode.Array;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.stream.Collectors;
-
 /*
 Leetcode 1. Two Sum
 Level: Easy
@@ -33,6 +29,10 @@ Constraints:
 • Only one valid answer exists.
  */
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.stream.Collectors;
+
 public class TwoSum {
 
     public static void main(String[] args) {
@@ -54,10 +54,6 @@ public class TwoSum {
         int target3 = 6;
         int[] result3 = instance.twoSum(nums3, target3);
         System.out.println("[" + Arrays.stream(nums3).mapToObj(String::valueOf).collect(Collectors.joining(", ")) + "]: " + Arrays.toString(result3));
-    }
-
-    private void toStrint(int[] nums1) {
-        // TODO
     }
 
     public int[] twoSum(int[] nums, int target) {
