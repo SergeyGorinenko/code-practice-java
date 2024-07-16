@@ -1,6 +1,7 @@
 
 import Leetcode.Array.BestTimeToBuyAndSellStock;
 import Leetcode.Array.ContainsDuplicate;
+import Leetcode.Array.ProductOfArrayExceptSelf;
 import Leetcode.Array.TwoSum;
 
 public class Home {
@@ -10,6 +11,7 @@ public class Home {
         // Arrays
         BestTimeToBuyAndSellStock.test();
         ContainsDuplicate.test();
+        ProductOfArrayExceptSelf.test();
         TwoSum.test();
     }
     
