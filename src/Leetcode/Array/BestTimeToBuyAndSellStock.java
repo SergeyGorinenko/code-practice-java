@@ -31,9 +31,8 @@ Constraints:
 
 public class BestTimeToBuyAndSellStock {
     
-    public static void main(String[] args) {
+    public static void test() {
         System.out.println("===< BestTimeToBuyAndSellStock >===-----------------------");
-
         BestTimeToBuyAndSellStock instance = new BestTimeToBuyAndSellStock();
 
         int[] nums1 = {7,1,5,3,6,4};

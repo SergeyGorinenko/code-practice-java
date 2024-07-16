@@ -35,9 +35,8 @@ import java.util.stream.Collectors;
 
 public class TwoSum {
 
-    public static void main(String[] args) {
+    public static void test() {
         System.out.println("===< TwoSum >===-----------------------");
-
         TwoSum instance = new TwoSum();
 
         int[] nums1 = {2,7,11,15};

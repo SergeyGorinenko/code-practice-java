@@ -8,9 +8,9 @@ public class Home {
     public static void main(String[] args) {
 
         // Arrays
-        BestTimeToBuyAndSellStock.main(args);
-        ContainsDuplicate.main(args);
-        TwoSum.main(args);
+        BestTimeToBuyAndSellStock.test();
+        ContainsDuplicate.test();
+        TwoSum.test();
     }
     
 }
