@@ -63,8 +63,4 @@ public class ProductOfArrayExceptSelf {
         return resultNums;
     }
 
-    public static void main(String[] args) {
-         ProductOfArrayExceptSelf.test();
-    }
-
 }
